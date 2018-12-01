@@ -20,7 +20,6 @@ namespace bài_tập_Csharp_cơ_bản
             Console.WriteLine("hieu: {0}", a - b);
             Console.WriteLine("nhan: {0}", a * b);
             Console.WriteLine("chia: {0}", b / a);
-            
             Console.ReadKey();
             
         }
