@@ -11,7 +11,7 @@ namespace bài_tập_Csharp_cơ_bản
         //args lấy tham số từ bên ngoài vào chương trình
         //static cho phép hàm main() được gọi khi không cần khởi tạo đối tượng
         //void cho biết hàm main() không trả về giá trị
-        static void Main(string[] args)
+        static public void Main(string[] args)
         {
             //khai báo a,b
             int a, b;
@@ -28,8 +28,30 @@ namespace bài_tập_Csharp_cơ_bản
             Console.WriteLine("nhan: {0}", a * b);
             Console.WriteLine("chia: {0}", b / a);
             //readkey dừng màn hình xem kết quả 
-            Console.ReadKey();
-            
+            //Chương trình C# để tráo đổi giá trị
+            Console.WriteLine("\n\n");
+            Console.WriteLine("chuong trinh hoan doi");
+            Console.WriteLine("---------------------");
+            Exchange r = new Exchange();
+            r.exchange();
+            //Chương trình C# để một số từ Input Stream chuẩn và in bảng nhân của số đó
+            Console.WriteLine("\n\n");
+            Console.WriteLine("bang nhan");
+            Console.WriteLine("---------------------");
+            Multipication multi = new Multipication();
+            multi.multi();
+            //Tìm giá trị trung bình của 4 số trong C#
+            Console.WriteLine("\n\n");
+            Console.WriteLine("Trung binh cong 4 so");
+            Console.WriteLine("---------------------");
+            Avg avg = new Avg();
+            avg.avg();
+            //Chuyển đổi độ C thành độ K và độ F
+            Console.WriteLine("\n\n");
+            Console.WriteLine("Doi do C sang do F");
+            Console.WriteLine("---------------------");
+            ExchangeTemearature temearature = new ExchangeTemearature();
+            temearature.Tem();
         }
     }
 }
