@@ -32,7 +32,33 @@ namespace bai_tap_kieu_du_lieu
             Console.WriteLine("-----------------------------------------------");
             NhapPhepToan phepToan = new NhapPhepToan();
             phepToan.pheptoan();
+            //chu vi dien tich hinh tron
+            Console.WriteLine("");
+            Console.WriteLine("-----------------------------------------------");
+            ChuViDienTichHinhTron chuViDienTich = new ChuViDienTichHinhTron();
+            chuViDienTich.HinhTron();
+            //Tìm giá trị cụ thể của hàm tương ứng với mỗi giá trị biến trong dãy đã cho
+            Console.WriteLine("");
+            Console.WriteLine("-----------------------------------------------");
+            GiaTriHam giaTriHam = new GiaTriHam();
+            giaTriHam.Ham();
+            //Tìm vận tốc (m/s, km/h, mile/h) với quãng đường và thời gian nhập từ bàn phím
+            Console.WriteLine("");
+            Console.WriteLine("-----------------------------------------------");
+            VanToc vanToc = new VanToc();
+            vanToc.V();
+            //kiểm tra số chẵn số lẻ
+            Console.WriteLine("");
+            Console.WriteLine("-----------------------------------------------");
+            SoChanLe chanLe = new SoChanLe();
+            chanLe.ChanLe();
+            //chuyen he thap phan sang he nhi phan
+            Console.WriteLine("");
+            Console.WriteLine("-----------------------------------------------");
+            ThapPhanNhiPhan phan = new ThapPhanNhiPhan();
+            phan.ChuyeDoi();
+
         }
-        
+
     }
 }

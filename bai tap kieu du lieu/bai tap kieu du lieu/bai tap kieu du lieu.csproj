@@ -43,10 +43,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CheckUserPass.cs" />
+    <Compile Include="ChuViDienTichHinhTron.cs" />
+    <Compile Include="GiaTriHam.cs" />
     <Compile Include="NhapPhepToan.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SoChanLe.cs" />
+    <Compile Include="ThapPhanNhiPhan.cs" />
     <Compile Include="ThreeUnits.cs" />
+    <Compile Include="VanToc.cs" />
     <Compile Include="VeTamGiac.cs" />
   </ItemGroup>
   <ItemGroup>
