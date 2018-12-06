@@ -11,7 +11,7 @@ namespace bai_tap_kieu_du_lieu
         public void HinhTron()
         {
             double r, V, C;
-            double pi = 3.14;
+            const double pi = 3.14;
             Console.Write("nhap ban kinh hinh tron (cm): ");
             r = Convert.ToDouble(Console.ReadLine());
             C = 2 * pi * r;

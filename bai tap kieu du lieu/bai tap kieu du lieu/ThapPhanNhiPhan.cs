@@ -10,7 +10,7 @@ namespace bai_tap_kieu_du_lieu
     {
         public void ChuyeDoi()
         {
-            int a, nguyen, du;
+            int a, du;
             Console.WriteLine("nhap so bat ki: ");
             a = int.Parse(Console.ReadLine());
             string kq = "";

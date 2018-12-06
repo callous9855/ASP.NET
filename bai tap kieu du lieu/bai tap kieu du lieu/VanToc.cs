@@ -13,8 +13,18 @@ namespace bai_tap_kieu_du_lieu
             int v, s, t;
             Console.Write("nhap quang duong (m): ");
             s = int.Parse(Console.ReadLine());
+            while (s < 0)
+            {
+                Console.Write("nhap lai quang duong (m): ");
+                s = int.Parse(Console.ReadLine());
+            }
             Console.Write("nhap thoi gian di (s): ");
             t = int.Parse(Console.ReadLine());
+            while (s < 0)
+            {
+                Console.Write("nhap lai thoi gian (s): ");
+                t = int.Parse(Console.ReadLine());
+            }
             v = s / t;
             Console.WriteLine("van toc di la: " + v + " (m/s) = " + (v * 3.6) + " (km/h) = " + (v * 2.24) + " (km/miles)");
             Console.ReadKey();
