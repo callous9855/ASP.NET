@@ -45,11 +45,18 @@
     <Compile Include="BauCu.cs" />
     <Compile Include="CheckAmDuong.cs" />
     <Compile Include="DiemThi.cs" />
+    <Compile Include="GocTamGiac.cs" />
+    <Compile Include="HienThiNgay.cs" />
+    <Compile Include="HienThiSo.cs" />
     <Compile Include="KiemTraHaiSo.cs" />
+    <Compile Include="LoiNhuan.cs" />
     <Compile Include="Nam.cs" />
+    <Compile Include="NguyenAmPhuAm.cs" />
     <Compile Include="PhanLoaiChieuCao.cs" />
+    <Compile Include="PhuongTrinhBacHai.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TamGiac.cs" />
     <Compile Include="ToaDo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -20,7 +20,7 @@ namespace bai_tap_kieu_du_lieu
             }
             Console.Write("nhap thoi gian di (s): ");
             t = int.Parse(Console.ReadLine());
-            while (s < 0)
+            while (t < 0)
             {
                 Console.Write("nhap lai thoi gian (s): ");
                 t = int.Parse(Console.ReadLine());

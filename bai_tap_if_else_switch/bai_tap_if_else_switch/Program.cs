@@ -31,6 +31,27 @@ namespace bai_tap_if_else_switch
             //nhập điểm thi ba môn Toán, Lý, Hóa của một thí sinh, kiểm tra xem thí sinh đó có trúng tuyển không
             DiemThi diemThi = new DiemThi();
             diemThi.tuyensinh();
+            //giải phương trình bậc hai
+            PhuongTrinhBacHai bachai = new PhuongTrinhBacHai();
+            bachai.giaiPT();
+            //kiểm tra tam giac
+            TamGiac a = new TamGiac();
+            a.tamgiac();
+            //kiểm tra 3 số bất kỳ có phải là 3 góc tam giác không
+            GocTamGiac goc = new GocTamGiac();
+            goc.Goc();
+            //kiểm tra nguyên âm phụ âm
+            NguyenAmPhuAm am = new NguyenAmPhuAm();
+            am.KiemTra();
+            //kiểm tra lợi nhuận, thua lỗ
+            LoiNhuan loinhuan = new LoiNhuan();
+            loinhuan.tinh();
+            //nhập một số và hiển thị ngày trong tuần tương ứng
+            HienThiNgay ngay = new HienThiNgay();
+            ngay.ngay();
+            //Nhập một số bất kỳ và hiển thị số bằng chữ tương ứng
+            HienThiSo hien = new HienThiSo();
+            hien.So();
         }
     }
 }
