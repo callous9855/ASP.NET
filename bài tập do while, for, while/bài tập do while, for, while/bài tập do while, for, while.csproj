@@ -44,14 +44,18 @@
   <ItemGroup>
     <Compile Include="BangCuuChuong.cs" />
     <Compile Include="BangNhan.cs" />
+    <Compile Include="BCNN.cs" />
+    <Compile Include="DaoNguoc.cs" />
     <Compile Include="GiaiThua.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DayFibonacci.cs" />
     <Compile Include="SoHoanHao.cs" />
     <Compile Include="SoNguyenTo.cs" />
+    <Compile Include="StrongNumber.cs" />
     <Compile Include="Tong.cs" />
     <Compile Include="TongDaySo.cs" />
+    <Compile Include="UCLN.cs" />
     <Compile Include="VeTamGiac.cs" />
   </ItemGroup>
   <ItemGroup>

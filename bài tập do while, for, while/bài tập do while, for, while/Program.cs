@@ -44,6 +44,20 @@ namespace bài_tập_do_while__for__while
             //day so Fibonacci
             DayFibonacci day = new DayFibonacci();
             day.Fibonacci();
+            //in so theo chieu dao nguoc
+            DaoNguoc dao = new DaoNguoc();
+            dao.nguoc();
+            //kiem tra so doi xung
+            dao.SoDoiXung();
+            //uoc chung lon nhat cua hai so
+            UCLN uoc = new UCLN();
+            uoc.UocChung();
+            //boi chung nho nhat cua hai so
+            BCNN Boi = new BCNN();
+            Boi.BoiChung();
+            //kiem tra strong number
+            StrongNumber strong = new StrongNumber();
+            strong.SN();
         }
     }
 }
